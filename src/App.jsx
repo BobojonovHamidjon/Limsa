@@ -6,6 +6,7 @@ import Main from './Components/Main/Main'
 import FaqSection from './Pages/FaqSelection/FaqSection'
 import Work from './Pages/Work/Work';
 import Services from './Pages/Services/Services';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       <FaqSection/>
       <Work/>
       <Services/>
+      <Footer/>
    
     </>
   )
