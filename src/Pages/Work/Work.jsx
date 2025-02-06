@@ -69,7 +69,7 @@ const projects = [
 
 function Work ()  {
   return (
-    <section className="py-24 bg-gray-900 text-white">
+    <section className="py-24 bg-[#0D0E10] text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16">Our Recent Projects</h2>
         <ul className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

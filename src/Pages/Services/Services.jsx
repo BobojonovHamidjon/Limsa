@@ -1,6 +1,6 @@
 export default function Services() {
     return (
-      <section className="py-10 bg-gray-900 text-white">
+      <section className="py-10 bg-[rgb(13,14,16)] text-white">
         <div className="container mx-auto text-center px-4">
           <h2 className="text-4xl sm:text-6xl font-bold mb-6 services__title">
             Why us? Why most people choose us?

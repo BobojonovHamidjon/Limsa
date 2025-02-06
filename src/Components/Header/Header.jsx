@@ -45,7 +45,7 @@ function Header() {
           </select>
 
 
-          <a href="tel:+998935138833" className="text-purple-400 font-medium border border-purple-600 rounded-lg px-5 py-3 hover:bg-transparent hover:border-white">
+          <a href="tel:+998935138833" className="bg-purple-600 text-white font-medium border border-purple-600 rounded-lg px-5 py-3 hover:bg-transparent hover:border-white">
             +998 (33) 258 73 58
           </a>
         </div>

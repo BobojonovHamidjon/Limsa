@@ -7,6 +7,8 @@ import FaqSection from './Pages/FaqSelection/FaqSection'
 import Work from './Pages/Work/Work';
 import Services from './Pages/Services/Services';
 import Footer from './Components/Footer/Footer';
+import Connection from './Pages/Connection/Connection';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   useEffect(() => {
@@ -24,6 +26,8 @@ function App() {
       <FaqSection/>
       <Work/>
       <Services/>
+      <Connection/>
+      <Contact/>
       <Footer/>
    
     </>
