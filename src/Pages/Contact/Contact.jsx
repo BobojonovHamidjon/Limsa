@@ -1,16 +1,16 @@
   import React from "react";
   const Contact = () => {
     return (
-      <section className="contact py-16 bg-[rgb(13,14,16)] ">
+      <section className="contact py-16 bg-[rgb(25,25,26)] ">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-white">Contacts</h2>
           <div className="contact__start flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10">
             
-            {/* Chap tomon - Ma'lumotlar */}
+           
             <div className="contact__info flex-1 space-y-6">
               <div className="contact__list grid grid-cols-1 md:grid-cols-2 gap-6 text-white">
                 
-                {/* Address */}        
+                     
                 <div className="flex items-center gap-4">
                 <svg  className="w-8 h-8 text-gray-400" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z"></path><circle cx="256" cy="192" r="48" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"></circle></svg>
 
@@ -20,10 +20,9 @@
                   </div>
                 </div>
   
-                {/* Phone */}
                 <div className="flex items-center gap-4">
                 <svg
-      className="w-8 h-8 text-gray-400" // Tailwind sinflari
+      className="w-8 h-8 text-gray-400" 
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
@@ -39,10 +38,9 @@
                   </div>
                 </div>
   
-                {/* Working Hours */}
                 <div className="flex items-center gap-4">
                 <svg
-      className="w-8 h-8  text-gray-400" // Tailwind sinflari
+      className="w-8 h-8  text-gray-400" 
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
@@ -57,10 +55,10 @@
                   </div>
                 </div>
   
-                {/* Social Media */}
+               
                 <div className="flex items-center gap-4">
                 <svg
-      className="w-8 h-8 text-gray-400" // Tailwind sinflari
+      className="w-8 h-8 text-gray-400" 
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
@@ -74,7 +72,7 @@
                     <div className="flex gap-3 mt-1">
                     <a href="https://www.linkedin.com/company/limsa-2021/  "className="text-xl text-gray-400 hover:text-white" target="_blanc">
                     <svg
-      className="w-8 h-8 text-gray-400" // Tailwind sinflari
+      className="w-8 h-8 text-gray-400" 
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
@@ -85,7 +83,7 @@
     </svg></a>
                       <a href="https://www.instagram.com/limsa_uz" className="text-xl text-gray-400 hover:text-white">
                       <svg
-      className="w-8 h-8 text-gray-400" // Tailwind sinflari
+      className="w-8 h-8 text-gray-400" 
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
@@ -98,7 +96,7 @@
                         <i className="fab fa-instagram"></i></a>
                       <a href="https://t.me/Hamidjon04" className="text-xl text-gray-400 hover:text-white">
                       <svg
-      className="w-8 h-8 text-gray-400" // Tailwind CSS sinflari
+      className="w-8 h-8 text-gray-400" 
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
@@ -115,7 +113,7 @@
               </div>
             </div>
   
-            {/* O'ng tomon - Xarita */}
+          
             <div className="w-full lg:w-1/2">
               <iframe 
                 className="w-full h-72 rounded-lg"

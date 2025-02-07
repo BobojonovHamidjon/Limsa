@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Connection = () => {
   const [formData, setFormData] = useState({ name: "", phone: "", message: "" });
@@ -31,14 +32,14 @@ const Connection = () => {
                 <h3 className="text-white text-xl font-semibold">Pages</h3>
                 <ul className="mt-3 space-y-2">
                   <li>
-                    <a href="/" className="text-gray-400 hover:text-purple-400 transition">
+                    <Link to="/" className="text-gray-400 hover:text-purple-400 transition">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/services" className="text-gray-400 hover:text-purple-400 transition">
+                    <Link to="/services" className="text-gray-400 hover:text-purple-400 transition">
                       Our Services
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

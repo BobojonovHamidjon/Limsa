@@ -24,16 +24,16 @@ function Header() {
         >
           <ul className="flex flex-col md:flex-row gap-6 text-white text-lg font-light">
             <li>
-              <a href="/" className="border-b-2 border-purple-600">Home</a>
+              <Link to="/" className="border-b-2 border-purple-600">Home</Link>
             </li>
             <li>
-              <a href="/services" className="hover:text-purple-400">Our Services</a>
+              <Link to="/services" className="hover:text-purple-400">Our Services</Link>
             </li>
             <li>
-              <a href="/work" className="hover:text-purple-400">Our Works</a>
+              <Link to="/work" className="hover:text-purple-400">Our Works</Link>
             </li>
             <li>
-              <a href="/prices" className="hover:text-purple-400">Prices</a>
+              <Link to="/prices" className="hover:text-purple-400">Prices</Link>
             </li>
           </ul>
         </nav>

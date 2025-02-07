@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import "aos/dist/aos.css";
 import Aos from 'aos'
-import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
-import FaqSection from './Pages/FaqSelection/FaqSection'
-import Work from './Pages/Work/Work';
+
+import { Routes,Route } from 'react-router-dom';
+import Home from './Pages/Home/Home';
 import Services from './Pages/Services/Services';
-import Footer from './Components/Footer/Footer';
-import Connection from './Pages/Connection/Connection';
-import Contact from './Pages/Contact/Contact';
+import Work from './Pages/Work/Work';
+import Prices from './Pages/Prices/Prices';
 
 function App() {
   useEffect(() => {
@@ -21,14 +20,19 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Main/>
-      <FaqSection/>
-      <Work/>
-      <Services/>
-      <Connection/>
-      <Contact/>
-      <Footer/>
+      <Routes>
+      <Route path="/" element={<Main />}>
+      <Route index element={<Home />} />
+      <Route path='/services' element={<Services/>}/>
+      <Route path='/work' element={<Work/>}/>
+      <Route  path='/prices'  element={<Prices/>}/>
+
+      
+
+
+
+      </Route>
+      </Routes>
    
     </>
   )

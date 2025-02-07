@@ -9,7 +9,7 @@ function FaqSection() {
   };
 
   return (
-    <section className="faq bg-[#0D0E10] text-white pt-24 pb-0">
+    <section className="faq bg-[rgb(25,25,26)] text-white pt-24 pb-0">
       <div className="container mx-auto px-4">
         <div className="faq__content flex flex-col md:flex-row gap-10 justify-between items-center">
           
