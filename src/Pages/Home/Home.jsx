@@ -15,7 +15,7 @@ function Home() {
    <FaqSection/>
    <Work/>
    <Services/>
-   <Prices/>
+   
      
    </>
   )
