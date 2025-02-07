@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 function Main  ()  {
   return (
     <section className="hero pt-[150px] pb-[100px] bg-cover bg-center bg-no-repeat text-white" style={{ backgroundImage: 'url(https://www.limsa.uz/assets/main_bg-B3dATDZU.jpg)' }}>
@@ -26,7 +28,9 @@ function Main  ()  {
         </div>
       </div>
     </section>
+     
   );
 }
 
-export default Main;
+export default Main; 
+
