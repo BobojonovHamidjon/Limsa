@@ -32,9 +32,9 @@ const Connection = () => {
                 <h3 className="text-white text-xl font-semibold">Pages</h3>
                 <ul className="mt-3 space-y-2">
                   <li>
-                    <Link to="/" className="text-gray-400 hover:text-purple-400 transition">
+                    <a href="#" className="scroll-smooth text-gray-400 hover:text-purple-400 transition">
                       Home
-                    </Link>
+                    </a>
                   </li>
                   <li>
                     <Link to="/services" className="text-gray-400 hover:text-purple-400 transition">
