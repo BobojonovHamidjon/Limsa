@@ -4,8 +4,8 @@ const Prices = () => {
   return (
     <section className="pt-[150px] bg-[rgb(25,25,26)] bg-right bg-[url('https://www.limsa.uz/assets/pricing-shape-D9Ghccyc.png')]" aria-labelledby="prices-title">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-8">
-          <button className="px-6 py-2 border border-purple-600 rounded-full text-purple-600 hover:bg-purple-600 hover:text-white transition mb-4">
+        <div className="text-center ">
+          <button className="px-6 py-2 border border-purple-600 rounded-full text-purple-600 hover:bg-purple-600 hover:text-white transition ">
             Our prices
           </button>
           <h2 id="prices-title" className="text-3xl font-bold text-white">

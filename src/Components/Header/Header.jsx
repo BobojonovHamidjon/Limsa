@@ -24,7 +24,7 @@ function Header() {
         >
           <ul className="flex flex-col md:flex-row gap-6 text-white text-lg font-light">
             <li>
-              <Link to="/" className="border-b-2 border-purple-600">Home</Link>
+              <Link to="/" className="hover:text-purple-600">Home</Link>
             </li>
             <li>
               <Link to="/services" className="hover:text-purple-400">Our Services</Link>
@@ -40,8 +40,8 @@ function Header() {
 
         <div className="hidden md:flex items-center gap-6">
           <select className="border rounded-md p-2 bg-black text-white shadow-sm">
-            <option value="uz">Уз</option>
-            <option value="ru">Ру</option>
+            <option value="uz">Uz</option>
+            <option value="ru">Ru</option>
             <option value="eng">Eng</option>
           </select>
 

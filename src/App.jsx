@@ -28,9 +28,6 @@ function App() {
       <Route  path='/prices'  element={<Prices/>}/>
 
       
-
-
-
       </Route>
       </Routes>
    
