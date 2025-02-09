@@ -40,9 +40,10 @@ function Header() {
 
         <div className="hidden md:flex items-center gap-6">
           <select className="border rounded-md p-2 bg-black text-white shadow-sm">
+          <option value="eng">Eng</option>
             <option value="uz">Uz</option>
             <option value="ru">Ru</option>
-            <option value="eng">Eng</option>
+          
           </select>
 
 
